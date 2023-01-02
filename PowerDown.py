@@ -10,7 +10,7 @@ l7methods = ['HTTP', 'CFB', 'OVH', 'BYPASS']
 
 server = [["1.3.3.7", "22", "root", "OeDiCJwW9Ozvsq4zHLOB"]]
 
-token = "Your Token"
+token = "MTA1OTQ3ODE1MDc4Mzk2NzI3NA.Gn_INg.V1VD_nJQcibq80ecTEgu1_Cyu9glZKbg0EqBJo"
 
 def sshCommand(hostname, port, username, password, command):
     client = paramiko.SSHClient()
@@ -78,4 +78,4 @@ async def status(ctx):
     embed.add_field(name="1 / 3 servers", value=" ")
     await ctx.send(embed=embed)
 
-bot.run(token)
+bot.run(MTA1OTQ3ODE1MDc4Mzk2NzI3NA.Gn_INg.V1VD_nJQcibq80ecTEgu1_Cyu9glZKbg0EqBJo)
